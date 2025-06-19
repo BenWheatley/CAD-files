@@ -14,4 +14,4 @@ module mitre(inner_width, inner_length, inner_height, wall_thickness, gap_width,
     }
 }
 
-mitre(inner_width=24, inner_length=70, inner_height=24, wall_thickness=2, gap_width=2, angles=[0, 30, 45, 60]);
+mitre(inner_width=24, inner_length=70, inner_height=50, wall_thickness=3, gap_width=2, angles=[-60, -45, -30, 0, 30, 45, 60]);
