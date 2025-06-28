@@ -22,6 +22,12 @@ module linear_bracket(length, width, thickness, hole_diameter, countersink_head_
     }
 }
 
-linear_bracket(length = 80, width = 40, thickness = 4,
+/*linear_bracket(length = 80, width = 40, thickness = 4,
     hole_diameter = 3.5, countersink_head_diameter = 7,
-    hole_count_lengthwise = 4, hole_count_widthwise = 2, stagger_rows_horizontally_by = 3);
+    hole_count_lengthwise = 4, hole_count_widthwise = 2, stagger_rows_horizontally_by = 3);*/
+
+translate([0, -40, 0])
+    
+linear_bracket(length = 48*2, width = 30, thickness = 4,
+    hole_diameter = 3.5, countersink_head_diameter = 7,
+    hole_count_lengthwise = 4, hole_count_widthwise = 1, stagger_rows_horizontally_by = 0);
